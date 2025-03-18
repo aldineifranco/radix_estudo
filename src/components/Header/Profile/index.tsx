@@ -7,7 +7,7 @@ export function Profile() {
   return (
     <Flex direction='column' align='center'>
       <Avatar.Root
-        className='inline-flex items-center justify-center overflow-hidden w-8 h-8 rounded-full bg-cyan-900'
+        className='inline-flex items-center justify-center overflow-hidden w-6 h-6 rounded-full bg-cyan-900'
 
       >
         <Avatar.Image

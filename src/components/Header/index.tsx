@@ -2,11 +2,11 @@ import { Box, Flex } from '@radix-ui/themes';
 import { LogoSearch } from './LogoSearch';
 import { NavBarItems } from './NavBar';
 
-import Inicio from '../../assets/inicio.svg';
-import MinhaRede from '../../assets/minha_rede.svg';
-import Vagas from '../../assets/vagas.svg';
-import Mensagens from '../../assets/mensagens.svg';
-import Notificacoes from '../../assets/notificacoes.svg';
+import Inicio from '../../assets/inicio_gray.svg';
+import MinhaRede from '../../assets/minha_rede_gray.svg';
+import Vagas from '../../assets/vagas_gray.svg';
+import Mensagens from '../../assets/mensagens_gray.svg';
+import Notificacoes from '../../assets/notificacoes_gray.svg';
 import { Profile } from './Profile';
 
 export function Header() {
