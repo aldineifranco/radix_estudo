@@ -7,6 +7,7 @@ import MinhaRede from '../../assets/minha_rede.svg';
 import Vagas from '../../assets/vagas.svg';
 import Mensagens from '../../assets/mensagens.svg';
 import Notificacoes from '../../assets/notificacoes.svg';
+import { Profile } from './Profile';
 
 export function Header() {
   return (
@@ -23,6 +24,9 @@ export function Header() {
         <NavBarItems icon={Vagas} text={'Vagas'} />
         <NavBarItems icon={Mensagens} text={'Mensagens'} />
         <NavBarItems icon={Notificacoes} text={'Notificações'} />
+
+
+        <Profile />
       </Flex>
 
       <div>
