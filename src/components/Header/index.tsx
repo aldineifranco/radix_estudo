@@ -18,17 +18,19 @@ export function Header() {
       py="2"
       className="bg-white"
     >
-      <Flex direction="row" gap="4">
+      <Flex direction="row" justify='between'>
         <LogoSearch />
 
-        <NavBarItems icon={Inicio} text={'Início'} />
-        <NavBarItems icon={MinhaRede} text={'Minha Rede'} />
-        <NavBarItems icon={Vagas} text={'Vagas'} />
-        <NavBarItems icon={Mensagens} text={'Mensagens'} />
-        <NavBarItems icon={Notificacoes} text={'Notificações'} />
+        <Flex direction="row" gap='4'>
+          <NavBarItems icon={Inicio} text={'Início'} />
+          <NavBarItems icon={MinhaRede} text={'Minha Rede'} />
+          <NavBarItems icon={Vagas} text={'Vagas'} />
+          <NavBarItems icon={Mensagens} text={'Mensagens'} />
+          <NavBarItems icon={Notificacoes} text={'Notificações'} />
 
-        <Profile />
-        <Business />
+          <Profile />
+          <Business />
+        </Flex>
       </Flex>
 
       <div>
