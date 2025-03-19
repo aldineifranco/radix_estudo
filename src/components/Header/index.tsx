@@ -8,6 +8,7 @@ import Vagas from '../../assets/vagas_gray.svg';
 import Mensagens from '../../assets/mensagens_gray.svg';
 import Notificacoes from '../../assets/notificacoes_gray.svg';
 import { Profile } from './Profile';
+import { Business } from './Business';
 
 export function Header() {
   return (
@@ -19,14 +20,15 @@ export function Header() {
     >
       <Flex direction="row" gap="4">
         <LogoSearch />
+
         <NavBarItems icon={Inicio} text={'Início'} />
         <NavBarItems icon={MinhaRede} text={'Minha Rede'} />
         <NavBarItems icon={Vagas} text={'Vagas'} />
         <NavBarItems icon={Mensagens} text={'Mensagens'} />
         <NavBarItems icon={Notificacoes} text={'Notificações'} />
 
-
         <Profile />
+        <Business />
       </Flex>
 
       <div>

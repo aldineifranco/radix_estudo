@@ -21,7 +21,7 @@ export function Profile() {
       </Avatar.Root>
       
       <Flex align='center'>
-        <Text style={{ fontSize: '10px' }}>Eu</Text>
+        <Text style={{ fontSize: '12px' }}>Eu</Text>
         <TriangleDownIcon />
       </Flex>
 
